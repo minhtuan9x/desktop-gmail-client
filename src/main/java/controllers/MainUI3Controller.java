@@ -216,7 +216,7 @@ public class MainUI3Controller implements ControlledScreen{
                 previousFolderName = currentFolderName;
                 currentFolderName = "TRASH";
                 folderLabel.setText(currentFolderName);
-                resetFolderButtonParent(); bvb
+                resetFolderButtonParent();
                 trashButtonParent.setStyle("-fx-background-color: #0091EA");
                 removeScreenComponent();
                 //removeListviewSelection();

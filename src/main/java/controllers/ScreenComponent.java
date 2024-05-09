@@ -26,7 +26,6 @@ import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import javafx.scene.web.WebEngine;
 import javafx.scene.web.WebView;
-import sun.awt.PlatformFont;
 import utilClasses.NotifyUser;
 
 import java.io.File;

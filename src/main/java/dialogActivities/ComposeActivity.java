@@ -224,9 +224,7 @@ public class ComposeActivity {
                         //snackbar.getStylesheets().add(getClass().getResource("/sneckbar.css").toExternalForm());
                         snackbar.show("Fields cannot be empty", 3000);
                     }
-                } catch (MessagingException e) {
-                    e.printStackTrace();
-                } catch (IOException e) {
+                } catch (Exception e) {
                     e.printStackTrace();
                 }
 
@@ -256,18 +254,14 @@ public class ComposeActivity {
                 if(isEditDraft){
                     try {
                         GmailOperations.updateDraft(formattedMessage.getDraftId(),to,from,sub,body,isHtml.isSelected(),attachments);
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    } catch (MessagingException e) {
+                    } catch (Exception e) {
                         e.printStackTrace();
                     }
                 }
                 else {
                     try {
                         GmailOperations.createDraft(to, from, sub, body, isHtml.isSelected(), attachments);
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    } catch (MessagingException e) {
+                    } catch (Exception e) {
                         e.printStackTrace();
                     }
                 }

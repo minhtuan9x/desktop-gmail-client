@@ -97,10 +97,11 @@ public class SplashController implements ControlledScreen{
 
     public boolean skipSplashGuide(){
         try{
-            if(HelperValues.getHelperValues(HelperValues.loggedIn).equals("true"))
-                return true;
-            else
-                return false;
+            //if(HelperValues.getHelperValues(HelperValues.loggedIn).equals("true"))
+            //    return true;
+            //else
+            //    return false;
+            return true;
         } catch (Exception e) {
             e.printStackTrace();
         }
