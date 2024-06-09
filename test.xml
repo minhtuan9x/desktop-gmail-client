@@ -2,8 +2,8 @@
 <launch4jConfig>
   <dontWrapJar>false</dontWrapJar>
   <headerType>gui</headerType>
-  <jar>/home/runner/work/desktop-gmail-client/desktop-gmail-client/target/gmail-tools.jar</jar>
-  <outfile>/home/runner/work/desktop-gmail-client/desktop-gmail-client/target/gmail-tools.exe</outfile>
+  <jar>/home/runner/work/gmailtools/gmailtools/target/gmail-tools.jar</jar>
+  <outfile>/home/runner/work/gmailtools/gmailtools/target/gmail-tools.exe</outfile>
   <errTitle></errTitle>
   <cmdLine></cmdLine>
   <chdir>.</chdir>

@@ -28,6 +28,12 @@ public class Main {
         loadingView.loading(null, CFUtils.runAsync(() -> {
             try {
                 ApplicationContext applicationContext = new AnnotationConfigApplicationContext(Main.class);
+                if (args.length != 0) {
+                    if (args[0].equals("heath")) {
+                        System.out.println("heath good");
+                        System.exit(0);
+                    }
+                }
                 // In your main method or initialization block
                 HomeView homeView = applicationContext.getBean(HomeView.class);
                 homeView.showUI();
