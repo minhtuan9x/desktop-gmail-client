@@ -98,6 +98,30 @@ public class Helper {
         return String.format(pattern.toString(), strings.toArray());
     }
 
+    public static <T> List<List<T>> splitList(List<T> originalList, int numberOfParts) {
+        List<List<T>> parts = new ArrayList<>();
+
+        // Tính toán độ dài của mỗi phần
+        int totalSize = originalList.size();
+        int partSize = totalSize / numberOfParts;
+
+        // Tách danh sách thành số lượng phần mong muốn
+        int startIndex = 0;
+        for (int i = 0; i < numberOfParts; i++) {
+            int endIndex = startIndex + partSize;
+            if (i == numberOfParts - 1) {
+                endIndex = totalSize; // Đảm bảo phần cuối cùng lấy hết phần còn lại
+            }
+
+            List<T> part = originalList.subList(startIndex, endIndex);
+            parts.add(part);
+
+            startIndex = endIndex;
+        }
+
+        return parts;
+    }
+
     public static String[] getWithId(String value) {
         String[] values = value.split("\\|\\|");
         if (values.length < 2) {
@@ -310,7 +334,7 @@ public class Helper {
 
     public static void sleepExecute(long sleepingTimes, ExecutingStatus executingStatus, boolean isRandom) {
         if (isRandom)
-            sleepingTimes = Helper.generateRandomNumber((int) sleepingTimes, (int) (sleepingTimes + 15));
+            sleepingTimes = Helper.generateRandomNumber((int) sleepingTimes, (int) (sleepingTimes + 5));
         if (executingStatus != null) {
             executingStatus.logs.addElement("Đang tạm dừng: " + sleepingTimes + "s");
         }

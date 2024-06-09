@@ -11,12 +11,9 @@ import org.apache.http.impl.client.BasicCredentialsProvider;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.impl.client.ProxyAuthenticationStrategy;
 import org.apache.http.impl.conn.DefaultProxyRoutePlanner;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.tuanit.TrustAllCertsManager;
 
-import java.net.Proxy;
 import java.security.GeneralSecurityException;
 
 @Configuration

@@ -18,6 +18,11 @@ public abstract class JFrameCommon extends JFrame {
     HomeView homeView;
     @Autowired
     LoadingView loadingView;
+    @Autowired
+    ProfileSetupView profileSetupView;
+    @Autowired
+    SendMessView sendMessView;
+
 
     public static JFrame currentFrame = null;
 
@@ -34,8 +39,8 @@ public abstract class JFrameCommon extends JFrame {
         ///
         JMenu menu = new JMenu("M̲enu");
         menu.setIcon(IconFontSwing.buildIcon(FontAwesome.BARS, 16, SystemConstant.BTN_COLOR));
-        menu.add(buildSubItem("Thành viên nhóm", jFrame, FontAwesome.HAND_O_RIGHT, () -> homeView.showUI()));
-        menu.addSeparator();
+        menu.add(buildSubItem("Gửi Mail", jFrame, FontAwesome.HAND_O_RIGHT, () -> sendMessView.showUI()));
+//        menu.addSeparator();
         //
         JMenu menuHome = new JMenu("H̲ome");
         menuHome.setIcon(IconFontSwing.buildIcon(FontAwesome.WINDOWS, 16, SystemConstant.BTN_COLOR));
@@ -44,9 +49,9 @@ public abstract class JFrameCommon extends JFrame {
             jFrame.setVisible(false);
             homeView.showUI();
         });
-        //menuHome.add(menuItemHome);
-        //menuHome.addSeparator();
-        //menuHome.add(buildSubItem("Quản lí account ", jFrame, FontAwesome.USERS, () -> Context.getInstance(ProfileSetupView.class).showUI()));
+        menuHome.add(menuItemHome);
+        menuHome.addSeparator();
+        menuHome.add(buildSubItem("Quản lí account ", jFrame, FontAwesome.USERS, () -> profileSetupView.showUI()));
 
         //
         JMenu menuOptions = new JMenu("O̲ptions");

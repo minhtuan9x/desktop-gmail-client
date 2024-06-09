@@ -1,5 +1,6 @@
 package org.tuanit.view;
 
+import com.intellij.uiDesigner.core.GridLayoutManager;
 import org.springframework.stereotype.Component;
 import org.tuanit.model.swing.JFrameSetup;
 
@@ -32,7 +33,7 @@ public class HomeView extends JFrameCommon {
      */
     private void $$$setupUI$$$() {
         pane = new JPanel();
-        pane.setLayout(new com.intellij.uiDesigner.core.GridLayoutManager(1, 1, new Insets(0, 0, 0, 0), -1, -1));
+        pane.setLayout(new GridLayoutManager(1, 1, new Insets(0, 0, 0, 0), -1, -1));
     }
 
     /**
@@ -41,4 +42,5 @@ public class HomeView extends JFrameCommon {
     public JComponent $$$getRootComponent$$$() {
         return pane;
     }
+
 }
