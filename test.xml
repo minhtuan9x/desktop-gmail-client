@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>/home/runner/work/desktop-gmail-client/desktop-gmail-client/target/gmail-tools.jar</jar>
+  <outfile>/home/runner/work/desktop-gmail-client/desktop-gmail-client/target/gmail-tools.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+<!--  <icon>/home/runner/work/desktop-gmail-client/desktop-gmail-client/zalo_icon.ico</icon>-->
+  <jre>
+    <path>jdk;%JAVA_HOME%;%PATH%</path>
+    <requiresJdk>true</requiresJdk>
+    <requires64Bit>true</requires64Bit>
+    <minVersion>11</minVersion>
+    <maxVersion></maxVersion>
+  </jre>
+</launch4jConfig>

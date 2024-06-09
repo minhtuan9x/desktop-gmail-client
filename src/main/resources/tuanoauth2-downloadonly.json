@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "tuanoauth2",
+  "private_key_id": "5ba9dc21a4442af928dd8774b70885da584d9189",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDGIDVE2w/Jx0Ic\ntmuBYH7SDRPJ+tNNXlcnaKlTt0QWHZvqnxLVzcLA5Vs20RSZ3uDIH4jqicv2QiJh\n4CzLuY/5t/Y1JQ9vlDJgNig5RuckP7/g5jFd0jMH3X9teKxuMv0mc0rvqGjfiFON\nxF5UJ8NoKAqZZj+aIbcOhFZwAe0sHxJC52zsAn0Hu5dnHnPV2JdD3tGvn/6eyPNz\nAWe3kCPBGMVHIBYiK+OGgkh5NV8gqFBjA6TzWyQ9BWHyfO4fXTFUahCyKhKRYjbQ\nyIPLlmtigbUhwmUZrctSWbROiNGrAvzJJcM8C+WB64BLfK6IXg6BVbnFuUhbDqP+\nI/GsQrRlAgMBAAECggEAGP0y+s5OfXq+YfS4Noc/N6sildUnFZkSkQvoX4C7+7Yc\nVkleDM15BO9ow883M/kijNs9X6elrBfHUmT+AWwUNsD3MtjLy5z7hZsPE7pXqQDJ\naMpf6595hEJxshMIXJXdzB26k+O/5oHBWB4ub5rcUKTMQXDeEMiz2AblCBeWHHxN\nqOfns18FceJnP0k/jixsM0mT8Jji+MIBJyBbotMlNeYxhKGf4TDLz+lvErRbGBBx\nONG2/iwOvk+du+Dd7LMrT9FeI6rXDNCh7CkkOZ19DbqGz3hTqyAR49Jn8Ke0OX1i\ngMuyVm5eyQAWxcYzWxNBltabl1ll80RmeZRsWHJMeQKBgQD54/h94EQPVbZLy0i/\nej53lmUkeonXKPB0TOziU+9SID7s1gwbKAiu9r6P5Cc04avSJMDQU1+wUSh1cwb6\nshQA+fgseROAW8aqcnbcU0LygJDWsmssdZp55awPhnMifZDogzotyu9c/dIq+Xji\nDrq5SCfbSZ8FLKzkhZ2TAfe0rwKBgQDK+D/fBpSX6ScEkpceWxtxokVcXp99UiNC\n+DKJ38tuzQhxWOLIp/vHtdHAQjJYMV+ulGQpDaVzefF8lkxVPoyEj9EIjM0mQgFq\n5WDRUX+NmE6BlhSJvOv0VNJxlfxipOEDypcvi7lUMh/n8A6Kl8i5cKv3crgL6N+u\nUFwRFrsVKwKBgB8wqS9s8pHHbP2A3g+oPmvGxdELynCkl36sq1SEjXZ+t9vvy4sI\nMC1GdvqWy536HOwZ0kcuYN8tAhPGy7Q2zfBhQuyqIBkBW4aiytstOUnzaiCiHGZs\nN1/HnvZBHdXMPm4HExfsIHxG4hijEseEdyHxM6hXRBXtQZc0ZjqXIEfZAoGBAIXv\n4b4byoygR6Yl0eEvP+HxshGtQ1PgkvJLdJY0/zqjxFF/1U+SQnzcR4i2ZiB6nGhI\n9ft9TNPyAWA0kjSibPnBKbCZsXrwjZzrtsMKI8DdY9jxn6Xw7Ee0fZaE4iJ6KR5m\nXvP6IRclaJaWfBIK7WMpreFBa6A4UPrnfomsVVI3AoGAdVnVPPxRS1mRQCl84Pgu\n0CnWpg5ZXgORDNPRBKQzQT2mDc0rsTdhD5hmHKUpxs4N/t/QoInPckF/d76w5jiT\nYYjA8NjOy7TrOtxlsRLqk7sUQ7C+Wzj16Dcu0z1dqwbXRthQ3lOKnEwC1GqasomR\nXHjy9x0xOHBm/QS4lsx5np0=\n-----END PRIVATE KEY-----\n",
+  "client_email": "tuandownloadonly@tuanoauth2.iam.gserviceaccount.com",
+  "client_id": "103318234802518485410",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/tuandownloadonly%40tuanoauth2.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
